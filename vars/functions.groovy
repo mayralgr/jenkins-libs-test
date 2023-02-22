@@ -1,5 +1,5 @@
 def build(Map params){
-    sh "echo 'this is building ${params.filePath} ${params.dockerImage}"
+    sh "echo 'this is building ${params.filePath} ${params.dockerImage}'"
 }
 
 def push(Map params){
